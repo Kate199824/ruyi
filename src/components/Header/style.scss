@@ -1,0 +1,64 @@
+@import '../../common.scss';
+
+.ry-header {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  right: 60px;
+  min-width: 600px;
+  background-color: $header-bg-color;
+  border-radius: 6px;
+  height: 70px;
+  box-shadow: $default-shadow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.35s;
+
+  .ry-header-icon {
+    margin-left: 60px;
+    img {
+      position: relative;
+      top: 2px;
+      height: 50px;
+    }
+  }
+  .ry-header-ct {
+    margin: 0 120px 0 60px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .ry-header-right {
+    margin-right: 80px;
+    color: #aa6767;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 850px) {
+    .ry-header-ct {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 1050px) {
+    .ry-header-right {
+      display: none;
+    }
+    .ry-header-ct {
+      margin-left: 10px;
+    }
+    .ry-header-icon {
+      margin-left: 30px;
+    }
+  }
+}
+
+.ry-header__top {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0px;
+  height: 85px;
+}

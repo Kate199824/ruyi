@@ -1,0 +1,40 @@
+@import '../../../common.scss';
+
+.ry-dropdown {
+  height: 100px;
+  position: relative;
+  top: 40px;
+  flex-shrink: 0;
+  .ry-dropdown-title {
+    margin: 0 0 0 25px;
+    cursor: pointer;
+  }
+  @media (max-width: 770px) {
+    .ry-dropdown-title {
+      margin: 0 0 0 12px;
+    }
+  }
+  .ry-dropdown-list {
+    position: absolute;
+    top: 65px;
+    box-shadow: $default-shadow;
+    background-color: $header-bg-color;
+    border-radius: 6px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.35s;
+
+    .ry-dpd-item {
+      flex-wrap: nowrap;
+      height: 45px;
+      line-height: 45px;
+      width: 100%;
+      text-align: center;
+      border-radius: 6px;
+    }
+    .ry-dpd-item:hover {
+      background-color: rgba($color: #f7f5f5, $alpha: 0.25);
+    }
+  }
+}
