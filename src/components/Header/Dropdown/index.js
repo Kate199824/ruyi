@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Icon } from 'antd';
+import { Link, withRouter } from 'react-router-dom';
 import './style.scss';
 
-export default class Dropdown extends Component {
+class Dropdown extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,7 +24,7 @@ export default class Dropdown extends Component {
   };
 
   render() {
-    const { title, list = [] } = this.props;
+    const { title, list = [], ryLink } = this.props;
     const { showList } = this.state;
     return (
       <div
@@ -31,17 +32,24 @@ export default class Dropdown extends Component {
         onMouseEnter={this.onShowList}
         onMouseLeave={this.onHideList}
       >
-        <div className="ry-dropdown-title">
-          {title}{' '}
-          <Icon type="down" style={{ fontSize: '10px', color: '#555' }} />
-        </div>
+        {ryLink ? (
+          <Link className="ry-dropdown-title" to={ryLink}>
+            {title}{' '}
+            <Icon type="down" style={{ fontSize: '10px', color: '#555' }} />
+          </Link>
+        ) : (
+          <div className="ry-dropdown-title">
+            {title}{' '}
+            <Icon type="down" style={{ fontSize: '10px', color: '#555' }} />
+          </div>
+        )}
         {list.length > 0 && showList && (
           <div className="ry-dropdown-list">
             {list.map(item => {
               return (
-                <div className="ry-dpd-item" key={item.name}>
+                <Link className="ry-dpd-item" key={item.name} to={item.link}>
                   {item.name}
-                </div>
+                </Link>
               );
             })}
           </div>
@@ -50,3 +58,5 @@ export default class Dropdown extends Component {
     );
   }
 }
+
+export default withRouter(Dropdown);

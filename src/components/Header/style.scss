@@ -1,6 +1,7 @@
 @import '../../common.scss';
 
 .ry-header {
+  z-index: 999;
   position: absolute;
   left: 60px;
   top: 50px;
@@ -20,7 +21,7 @@
     img {
       position: relative;
       top: 2px;
-      height: 50px;
+      height: 30px;
     }
   }
   .ry-header-ct {

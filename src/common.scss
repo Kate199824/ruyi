@@ -1,10 +1,16 @@
-$default-purple: #310b3dd8;
-$default-yellow: #fae740;
+$default-purple: #3f2d57;
+$default-yellow: #f5eb66;
+$default-white: #e2e2e2;
+$default-page-white: #fff;
+$default-font-color: rgba(0, 0, 0, 0.65);
 
 $default-shadow: 0 5px 35px rgba(32, 30, 30, 0.1);
+$default-shadow_heavy: 0 5px 35px rgba(32, 30, 30, 0.32);
 $default-shadow-active: 0 10px 55px rgba(245, 237, 237, 0.15);
 
 $header-bg-color: rgba(
   $color: #f7f5f5,
   $alpha: 0.7
 );
+
+$default-page-padding: 120px;

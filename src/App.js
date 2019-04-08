@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
         <BrowserRouter>
+          <Header />
           <Switch>{routeList}</Switch>
         </BrowserRouter>
         <Footer />

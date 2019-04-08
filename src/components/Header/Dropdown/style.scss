@@ -8,6 +8,7 @@
   .ry-dropdown-title {
     margin: 0 0 0 25px;
     cursor: pointer;
+    color: $default-font-color;
   }
   @media (max-width: 770px) {
     .ry-dropdown-title {
@@ -26,6 +27,7 @@
     transition: all 0.35s;
 
     .ry-dpd-item {
+      color: $default-font-color;
       flex-wrap: nowrap;
       height: 45px;
       line-height: 45px;

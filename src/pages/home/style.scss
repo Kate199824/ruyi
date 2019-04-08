@@ -1,7 +1,89 @@
 @import '../../common.scss';
 
-.aaa {
-  color: $default-purple;
-  height: 500px;
-  background-color: $default-purple;
+.ry-body {
+  background-color: $default-white;
+  .carouselSection {
+    max-width: 100%;
+    .carItem {
+      height: 750px;
+      max-width: 100%;
+    }
+  }
+
+  .introSection {
+    padding: 90px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $default-page-white;
+    .logo {
+      img {
+        width: 130px;
+      }
+    }
+    .text {
+      margin-left: 180px;
+      color: $default-purple;
+      line-height: 32px;
+    }
+    .text:first-letter {
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+
+  .mapSection {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $default-yellow;
+    padding: 60px 180px 60px 180px;
+    .logo {
+      width: 150px;
+      height: 150px;
+    }
+    .text {
+      color: $default-purple;
+      margin: 0 50px 0 40px;
+      flex-shrink: -1;
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .line {
+        width: 30px;
+        margin: 8px 0 0 2px;
+        height: 6px;
+        background-color: $default-purple;
+      }
+      .section {
+        display: flex;
+        margin: 28px 0;
+        .subTitle {
+          width: 60px;
+        }
+        .content {
+        }
+      }
+    }
+    .mapContainer {
+      flex-shrink: 0;
+      width: 500px;
+      height: 280px;
+      overflow: hidden;
+      box-shadow: $default-shadow_heavy;
+    }
+  }
+  .barSection {
+    width: 100%;
+    background-image: url('./pic/bar.png');
+    padding: 0 650px;
+    display: flex;
+    justify-content: space-around;
+    .icon {
+      margin: 15px;
+      cursor: pointer;
+    }
+  }
 }
