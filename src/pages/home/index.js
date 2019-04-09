@@ -2,23 +2,11 @@ import React, { Component } from 'react';
 import { Carousel, Icon, Popover } from 'antd';
 import RyMap from '../../components/RyMap';
 import MagicPicture from './MagicPicture';
-import Poster1 from './pic/poster1.png';
-import Poster2 from './pic/poster2.png';
-import Poster3 from './pic/poster3.png';
-import Poster4 from './pic/poster4.png';
-import photo1 from './pic/photo1.png';
-import photo2 from './pic/photo2.png';
-import photo3 from './pic/photo3.png';
-import photo4 from './pic/photo4.png';
-import photo5 from './pic/photo5.png';
-import photo6 from './pic/photo6.png';
-import photo7 from './pic/photo7.png';
-import photo8 from './pic/photo8.png';
 
 import IntroLogo from './pic/logo/introLogo.png';
 import MapIcon from './pic/logo/mapLogo.png';
-import Teacher1 from './pic/teacher1.png';
 import QQ from './pic/qq.png';
+import { posters, teachers, photos } from '../../service/ossURL';
 import Wechat from './pic/wechat.png';
 import './style.scss';
 
@@ -30,8 +18,8 @@ export default class Home extends Component {
       '盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。山朗润起来了，水涨起来了，太阳的脸红起来了,坐着，躺着，山朗润起来了，水涨起来了，太阳的脸红起来了,山朗润起来了，水涨起来了，太阳的脸红起来了打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。';
     const locationText1 = '南京市 玄武区 新街口街道 丹凤街';
     const locationText2 = '恒基公寓A座2单元1101室';
-    const posterList = [Poster1, Poster2, Poster3, Poster4];
-    const teacherList = [Teacher1, Teacher1];
+    const posterList = posters;
+    const teacherList = teachers;
     const QQcontent = (
       <div>
         <img src={QQ} style={{ width: 160 }} />
@@ -76,16 +64,16 @@ export default class Home extends Component {
             </div>
             <div className="photoContainer">
               <div className="oneline">
-                <MagicPicture url={photo1} id={1} />
-                <MagicPicture url={photo2} yellow id={2} />
-                <MagicPicture url={photo3} id={3} />
-                <MagicPicture url={photo4} yellow id={4} />
+                <MagicPicture url={photos[0]} id={1} />
+                <MagicPicture url={photos[1]} yellow id={2} />
+                <MagicPicture url={photos[2]} id={3} />
+                <MagicPicture url={photos[3]} yellow id={4} />
               </div>
               <div className="oneline">
-                <MagicPicture url={photo5} id={5} />
-                <MagicPicture url={photo6} yellow id={6} />
-                <MagicPicture url={photo7} id={7} />
-                <MagicPicture url={photo8} yellow id={8} />
+                <MagicPicture url={photos[4]} yellow id={5} />
+                <MagicPicture url={photos[5]} id={6} />
+                <MagicPicture url={photos[6]} yellow id={7} />
+                <MagicPicture url={photos[7]} id={8} />
               </div>
             </div>
           </div>

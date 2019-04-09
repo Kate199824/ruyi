@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HeaderIcon from './headerLogo.png';
+import { headerLogo } from '../../service/ossURL';
 import Dropdown from './Dropdown/index';
 import { Link, withRouter } from 'react-router-dom';
 import './style.scss';
@@ -50,7 +50,7 @@ class Header extends Component {
     return (
       <div className={classname} id="ry-header">
         <Link className="ry-header-icon" to="/">
-          <img src={HeaderIcon} />
+          <img src={headerLogo} />
         </Link>
         <div className="ry-header-ct">
           <Dropdown title={'课程详情'} list={list1} />
