@@ -114,17 +114,17 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="barSection">
-          <Popover
-            content={QQcontent}
-            title="扫描二维码添加QQ"
-            trigger="hover"
-            placement="top"
-          >
-            <Icon
-              className="icon"
-              type="qq"
-              style={{ fontSize: '40px', color: '#eeeeee' }}
-            />
+          <Popover content={QQcontent} trigger="hover" placement="top">
+            <a
+              href="https://user.qzone.qq.com/1576087369/infocenter"
+              target="_blank"
+            >
+              <Icon
+                className="icon"
+                type="qq"
+                style={{ fontSize: '40px', color: '#eeeeee' }}
+              />
+            </a>
           </Popover>
 
           <Icon
