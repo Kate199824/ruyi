@@ -3,7 +3,7 @@ export const headerLogo =
 export const yellowWithChar =
   'http://ruyiart.oss-cn-beijing.aliyuncs.com/logos/yellow.png?Expires=1554810859&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=UYp40jjuDL%2FNPD6kfWFWZyScI%2Fc%3D';
 export const whiteWithChar =
-  'http://ruyiart.oss-cn-beijing.aliyuncs.com/logos/yellow.png?Expires=1554810883&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=0XoInvylp6xMTO5JX95KiPgIIGA%3D';
+  'https://ruyiart.oss-cn-beijing.aliyuncs.com/logos/white.png?Expires=1554811963&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=V7ptQoRQzHo0iyoizOV2JWc1l4s%3D';
 
 export const posters = [
   'http://ruyiart.oss-cn-beijing.aliyuncs.com/poster/poster1.png?Expires=1554810078&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=GZhCbySZYii61ZMb0u4ThxrkVz4%3D',
@@ -28,3 +28,13 @@ export const photos = [
   'http://ruyiart.oss-cn-beijing.aliyuncs.com/photos/p7.png?Expires=1554811411&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=BgvXdCESdDvu2GM5F7dMUGUUjiw%3D',
   'http://ruyiart.oss-cn-beijing.aliyuncs.com/photos/p8.png?Expires=1554811419&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=pJhKNtWyRD7vh3Dftalnev844Rw%3D'
 ];
+
+export const qqQRChart =
+  'https://ruyiart.oss-cn-beijing.aliyuncs.com/QRcode/qq.png?Expires=1554812292&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=ZnikNtO%2BZYxrdKfT%2B9ZIc66HXYs%3D';
+export const wechatQRChart =
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/QRcode/wechat.png?Expires=1554812304&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=e%2BrbPEEj26tHM55x%2BKFcieMn0OY%3D';
+
+export const bg_bar =
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/background/bar.png?Expires=1554812596&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=zwggNCcT6dZ%2FiCfhA5fc4UvFFj4%3D';
+export const bg_photo =
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/background/photoBg.png?Expires=1554812614&OSSAccessKeyId=TMP.AQFsWsU1nLUBrAy17FQb3WXMGHxhHI8jjId-_qox__-bepKuxxrnYXx65xu8ADAtAhUA9WM3-5yzj2iqeiCqzB9w6X67eqkCFFHi5xYxGW8YEEpRLhx4NyudeiRs&Signature=OUzHuR3XrvFU0TFppWnOVocn7us%3D';

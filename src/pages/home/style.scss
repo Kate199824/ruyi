@@ -1,5 +1,5 @@
 @import '../../common.scss';
-
+@import '../../service/ossURL.scss';
 .ry-body {
   background-color: $default-white;
   .carouselSection {
@@ -76,7 +76,7 @@
     }
   }
   .barSection {
-    background-image: url('./pic/bar.png');
+    background-image: $bg_bar;
     padding: 0 0px;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
     padding: 40px 80px 80px 80px;
     display: flex;
     justify-content: space-between;
-    background-image: url('./pic/photoBg.png');
+    background-image: $bg_photo;
     background-size: cover;
     .left-part {
       .photo-title {

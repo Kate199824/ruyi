@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import { Carousel, Icon, Popover } from 'antd';
 import RyMap from '../../components/RyMap';
 import MagicPicture from './MagicPicture';
-
-import IntroLogo from './pic/logo/introLogo.png';
-import MapIcon from './pic/logo/mapLogo.png';
-import QQ from './pic/qq.png';
-import { posters, teachers, photos } from '../../service/ossURL';
-import Wechat from './pic/wechat.png';
+import {
+  posters,
+  teachers,
+  photos,
+  yellowWithChar,
+  whiteWithChar,
+  qqQRChart,
+  wechatQRChart
+} from '../../service/ossURL';
 import './style.scss';
 
 export default class Home extends Component {
@@ -22,12 +25,12 @@ export default class Home extends Component {
     const teacherList = teachers;
     const QQcontent = (
       <div>
-        <img src={QQ} style={{ width: 160 }} />
+        <img src={qqQRChart} style={{ width: 160 }} />
       </div>
     );
     const wechatContent = (
       <div>
-        <img src={Wechat} style={{ width: 160 }} />
+        <img src={wechatQRChart} style={{ width: 160 }} />
       </div>
     );
     return (
@@ -41,7 +44,7 @@ export default class Home extends Component {
         </div>
         <div className="introSection">
           <div className="logo">
-            <img src={IntroLogo} />
+            <img src={yellowWithChar} />
           </div>
           <div className="text">{introText}</div>
         </div>
@@ -85,7 +88,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="mapSection">
-          <img className="logo" src={MapIcon} />
+          <img className="logo" src={whiteWithChar} />
           <div className="text">
             <div className="title">联系方式</div>
             <div className="line" />
