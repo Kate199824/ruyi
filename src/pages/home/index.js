@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Carousel, Icon, Popover } from 'antd';
 import RyMap from '../../components/RyMap';
 import MagicPicture from './MagicPicture';
+import Schools from './Schools';
 import {
   posters,
   teachers,
@@ -58,12 +59,8 @@ export default class Home extends Component {
         <div className="photoSection">
           <div className="left-part">
             <div className="photo-title">
-              <span>Lesson</span>
-              <span className="yellow">Demeanor</span>
-              <span className="chinese">课</span>
-              <span className="yellow chinese">堂</span>
-              <span className="chinese">内</span>
-              <span className="yellow chinese">外</span>
+              <span className="yellow">LESSON DEMEANOR</span>
+              <span className="chinese">课堂内外</span>
             </div>
             <div className="photoContainer">
               <div className="oneline">
@@ -82,10 +79,13 @@ export default class Home extends Component {
           </div>
           <div className="right-part">
             <div className="title">
-              Classroom Atmosphere <p className="chinese">画室氛围</p>
+              CLASSROOM ATMOSPHERE<p className="chinese">画室氛围</p>
             </div>
             <div className="content">{atmosphereText}</div>
           </div>
+        </div>
+        <div className="schoolSection">
+          <Schools />
         </div>
         <div className="mapSection">
           <img className="logo" src={whiteWithChar} />
@@ -108,7 +108,6 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-
           <div className="mapContainer">
             <RyMap />
           </div>

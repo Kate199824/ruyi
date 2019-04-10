@@ -1,0 +1,68 @@
+@import '../../../common.scss';
+@import '../../../service/ossURL.scss';
+.schools_body {
+  background-image: $bg_mei;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+  padding: 60px 160px;
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7472729c;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    .en {
+      font-size: 18px;
+      letter-spacing: 6px;
+    }
+  }
+  .main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .art {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .university {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .museum {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .split {
+    width: 2px;
+    background-color: #adabab;
+    height: 170px;
+  }
+}
+
+.school_icon {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 85%;
+  }
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
