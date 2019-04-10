@@ -3,6 +3,7 @@
 .ry-body {
   background-color: $default-white;
   min-height: 500px;
+  font-family: $default-font-family;
   .carouselSection {
     max-width: 100%;
     .carItem {
@@ -26,6 +27,7 @@
       margin-left: 180px;
       color: $default-purple;
       line-height: 32px;
+      font-family: $default-font-family-cn;
     }
     .text:first-letter {
       font-size: 30px;
