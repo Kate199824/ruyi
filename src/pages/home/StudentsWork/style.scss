@@ -1,0 +1,32 @@
+@import '../../../common.scss';
+
+.students-work {
+  background-color: $default-page-white;
+  width: 100%;
+  display: flex;
+  .sw-left-part {
+    width: 25%;
+    background-color: $default-white;
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 100%;
+    }
+  }
+  .sw-right-part {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    .carousel-container {
+      border: 2px black solid;
+      width: 800px;
+      height: 540px;
+    }
+  }
+}
+
+.students-work-item {
+  border: 1px black solid;
+}

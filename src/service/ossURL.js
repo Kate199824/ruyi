@@ -41,6 +41,9 @@ export const bg_photo =
 export const bg_mei =
   'http://ruyiart.oss-cn-beijing.aliyuncs.com/background/mei.png';
 
+export const bg_studentsWork =
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/background/studentsWork.png';
+
 export const university = {
   东南大学: {
     imageUrl:

@@ -3,6 +3,7 @@ import { Carousel, Icon, Popover } from 'antd';
 import RyMap from '../../components/RyMap';
 import MagicPicture from './MagicPicture';
 import Schools from './Schools';
+import StudentsWork from './StudentsWork';
 import {
   posters,
   teachers,
@@ -55,6 +56,9 @@ export default class Home extends Component {
               return <img src={item} />;
             })}
           </Carousel>
+        </div>
+        <div className="studentsWorkSection">
+          <StudentsWork />
         </div>
         <div className="photoSection">
           <div className="left-part">
