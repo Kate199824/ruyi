@@ -38,7 +38,7 @@ export default class Home extends Component {
     return (
       <div className="ry-body">
         <div className="carouselSection">
-          <Carousel autoplay>
+          <Carousel autoplay autoplaySpeed={4000}>
             {posterList.map(item => {
               return <img src={item} />;
             })}
@@ -51,7 +51,7 @@ export default class Home extends Component {
           <div className="text">{introText}</div>
         </div>
         <div className="teacherSection">
-          <Carousel autoplay>
+          <Carousel autoplay autoplaySpeed={4000}>
             {teacherList.map(item => {
               return <img src={item} />;
             })}

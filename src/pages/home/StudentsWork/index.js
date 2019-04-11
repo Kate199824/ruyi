@@ -12,7 +12,7 @@ export default class StudentsWork extends Component {
         </div>
         <div className="sw-right-part">
           <div className="carousel-container">
-            <Carousel>
+            <Carousel autoplaySpeed={5000} autoplay>
               {studentsWork.map(item => {
                 return (
                   <div key={item} className="carousel-item">
