@@ -3,12 +3,14 @@ import { museum, university, artUniversity } from '../../../service/ossURL.js';
 import './style.scss';
 
 function Icon(props) {
-  const { url, title } = props;
+  const { url, title, link } = props;
   return (
-    <div className="school_icon">
-      <img src={url} />
-      <p>{title}</p>
-    </div>
+    <a href={link} target="_blank">
+      <div className="school_icon">
+        <img src={url} />
+        <p>{title}</p>
+      </div>
+    </a>
   );
 }
 
@@ -66,14 +68,22 @@ export default class Schools extends Component {
             <div className="oneline">
               {artg1.map(title => {
                 return (
-                  <Icon title={title} url={artUniversity[title].imageUrl} />
+                  <Icon
+                    title={title}
+                    url={artUniversity[title].imageUrl}
+                    link={artUniversity[title].link}
+                  />
                 );
               })}
             </div>
             <div className="oneline">
               {artg2.map(title => {
                 return (
-                  <Icon title={title} url={artUniversity[title].imageUrl} />
+                  <Icon
+                    title={title}
+                    url={artUniversity[title].imageUrl}
+                    link={artUniversity[title].link}
+                  />
                 );
               })}
             </div>
@@ -82,12 +92,24 @@ export default class Schools extends Component {
           <div className="university">
             <div className="oneline">
               {universityg1.map(title => {
-                return <Icon title={title} url={university[title].imageUrl} />;
+                return (
+                  <Icon
+                    title={title}
+                    url={university[title].imageUrl}
+                    link={university[title].link}
+                  />
+                );
               })}
             </div>
             <div className="oneline">
               {universityg2.map(title => {
-                return <Icon title={title} url={university[title].imageUrl} />;
+                return (
+                  <Icon
+                    title={title}
+                    url={university[title].imageUrl}
+                    link={university[title].link}
+                  />
+                );
               })}
             </div>
           </div>
@@ -95,12 +117,24 @@ export default class Schools extends Component {
           <div className="museum">
             <div className="oneline">
               {museumg1.map(title => {
-                return <Icon title={title} url={museum[title].imageUrl} />;
+                return (
+                  <Icon
+                    title={title}
+                    url={museum[title].imageUrl}
+                    link={museum[title].link}
+                  />
+                );
               })}
             </div>
             <div className="oneline">
               {museumg2.map(title => {
-                return <Icon title={title} url={museum[title].imageUrl} />;
+                return (
+                  <Icon
+                    title={title}
+                    url={museum[title].imageUrl}
+                    link={museum[title].link}
+                  />
+                );
               })}
             </div>
           </div>
