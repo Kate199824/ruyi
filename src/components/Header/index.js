@@ -15,7 +15,7 @@ class Header extends Component {
     window.addEventListener('scroll', () => {
       console.log(window.scrollY);
       this.setState({
-        toTop: window.scrollY > 30
+        toTop: window.scrollY > 10
       });
     });
 
