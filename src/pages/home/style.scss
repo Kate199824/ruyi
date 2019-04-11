@@ -4,11 +4,37 @@
   background-color: $default-white;
   min-height: 500px;
   font-family: $default-font-family;
+  :global {
+    .ant-carousel .slick-dots li button {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      margin: 0 5px;
+      background: rgba(233, 233, 233, 0.829);
+    }
+  }
   .carouselSection {
     max-width: 100%;
     .carItem {
       height: 750px;
       max-width: 100%;
+    }
+  }
+
+  .teacherSection {
+    max-width: 100%;
+    .carItem {
+      height: 750px;
+      max-width: 100%;
+    }
+    :global {
+      .ant-carousel .slick-dots li button {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: rgba(97, 97, 97, 0.89);
+      }
     }
   }
 
@@ -147,5 +173,14 @@
   }
 
   .studentsWorkSection {
+    :global {
+      .ant-carousel .slick-dots li button {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: rgba(90, 90, 90, 0.829);
+      }
+    }
   }
 }

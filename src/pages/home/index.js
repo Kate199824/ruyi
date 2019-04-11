@@ -50,7 +50,7 @@ export default class Home extends Component {
           </div>
           <div className="text">{introText}</div>
         </div>
-        <div className="carouselSection">
+        <div className="teacherSection">
           <Carousel autoplay>
             {teacherList.map(item => {
               return <img src={item} />;

@@ -21,11 +21,6 @@
     padding: 60px;
     .carousel-container {
       width: 700px;
-      :global {
-        .ant-carousel .slick-dots li button {
-          background: rgba(148, 147, 147, 0.829);
-        }
-      }
     }
   }
 }
