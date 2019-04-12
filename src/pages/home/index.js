@@ -36,7 +36,7 @@ export default class Home extends Component {
       </div>
     );
     return (
-      <div className="ry-body">
+      <div className="ry-body" id="ry-body">
         <div className="carouselSection">
           <Carousel autoplay autoplaySpeed={4000}>
             {posterList.map(item => {
@@ -136,12 +136,7 @@ export default class Home extends Component {
             style={{ fontSize: '40px', color: '#eeeeee' }}
           />
 
-          <Popover
-            content={wechatContent}
-            title="扫描二维码添加微信"
-            trigger="hover"
-            placement="top"
-          >
+          <Popover content={wechatContent} trigger="hover" placement="top">
             <Icon
               className="icon"
               type="wechat"

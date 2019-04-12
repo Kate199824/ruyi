@@ -197,3 +197,11 @@ export const artUniversity = {
     link: 'http://www.lumei.edu.cn/'
   }
 };
+
+///////////////////news//////////////////////
+export const newsBg = {
+  abroad: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/abroad_new_bg.png',
+  nation:
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/nation_news_bg.png',
+  studio: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/studio_news_bg.png'
+};

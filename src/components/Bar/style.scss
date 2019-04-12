@@ -1,0 +1,11 @@
+@import '../../service/ossURL.scss';
+.barSection {
+  background-image: $bg_bar;
+  padding: 0 0px;
+  display: flex;
+  justify-content: center;
+  .icon {
+    margin: 15px 25px;
+    cursor: pointer;
+  }
+}

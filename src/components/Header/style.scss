@@ -32,7 +32,7 @@
   }
   .ry-header-right {
     margin-right: 80px;
-    color: #aa6767;
+    color: #9e2929;
     font-weight: bold;
     flex-shrink: 0;
   }
@@ -56,7 +56,7 @@
 }
 
 .ry-header__top {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;

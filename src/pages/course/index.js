@@ -3,10 +3,6 @@ import './style.scss';
 
 export default class Course extends Component {
   render() {
-    return (
-      <div className="course-body">
-        <div />
-      </div>
-    );
+    return <div className="course-body" />;
   }
 }
