@@ -5,9 +5,10 @@ export default class AniBackground extends Component {
   componentDidMount() {
     const ele = document.getElementById('abg_container');
     window.addEventListener('scroll', () => {
-      console.log(window.scrollY);
-      const percent = 100 - window.scrollY / 5;
+      const percent = 100 - window.scrollY / 10;
       ele.style.width = percent + '%';
+      console.log(percent);
+      ele.style.opacity = percent / 150;
     });
   }
   render() {
