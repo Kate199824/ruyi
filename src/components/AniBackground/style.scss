@@ -13,7 +13,18 @@
     width: 100%;
 
     img {
-      width: 900%;
+      width: 100%;
+    }
+  }
+  .abg_title_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+      width: 100%;
     }
   }
 }

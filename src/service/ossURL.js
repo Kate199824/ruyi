@@ -205,3 +205,12 @@ export const newsBg = {
     'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/nation_news_bg.png',
   studio: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/studio_news_bg.png'
 };
+
+export const newsBgText = {
+  abroad:
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/abroad_news_text.png',
+  nation:
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/nation_news_text.png',
+  studio:
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/studio_news_text.png'
+};
