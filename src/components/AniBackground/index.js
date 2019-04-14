@@ -10,7 +10,11 @@ export default class AniBackground extends Component {
       ele.style.width = percent + '%';
       console.log(percent);
       ele.style.opacity = percent / 150;
-      ele2.style.opacity = percent / 110;
+      if (percent > 90) {
+        ele2.style.opacity = 1;
+      } else {
+        ele2.style.opacity = percent / 120;
+      }
     });
   }
   render() {
