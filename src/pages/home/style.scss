@@ -120,6 +120,8 @@
     justify-content: space-between;
     background-image: $bg_photo;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
     .left-part {
       .photo-title {
         font-size: 36px;

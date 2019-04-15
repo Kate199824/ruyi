@@ -1,0 +1,10 @@
+@import '../../../service/ossURL.scss';
+
+.picture-section {
+  background-image: $bg_news_yellow_bg;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 400px;
+  margin-bottom: 72px;
+}

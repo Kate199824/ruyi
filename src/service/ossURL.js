@@ -200,17 +200,24 @@ export const artUniversity = {
 
 ///////////////////news//////////////////////
 export const newsBg = {
-  abroad: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/abroad_new_bg.png',
-  nation:
-    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/nation_news_bg.png',
-  studio: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/studio_news_bg.png'
+  abroad: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/abroad_news_bg.png',
+  nation: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/nation_news_bg.png',
+  studio: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/studio_news_bg.png'
 };
 
 export const newsBgText = {
   abroad:
-    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/abroad_news_text.png',
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/abroad_news_text.png',
   nation:
-    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/nation_news_text.png',
-  studio:
-    'http://ruyiart.oss-cn-beijing.aliyuncs.com/course/studio_news_text.png'
+    'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/nation_news_text.png',
+  studio: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/studio_news_text.png'
 };
+
+export const news_yellow_bg =
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/yellow_bg.png';
+
+export const previos_activity = [
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/poster/poster1.png',
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/poster/poster2.png',
+  'http://ruyiart.oss-cn-beijing.aliyuncs.com/poster/poster3.png'
+];

@@ -1,3 +1,7 @@
 body {
   min-width: 1000px;
 }
+
+.ry-body {
+  min-height: 600px;
+}

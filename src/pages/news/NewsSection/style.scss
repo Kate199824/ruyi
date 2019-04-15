@@ -1,4 +1,39 @@
 @import '../../../common.scss';
 
 .newsSection {
+  background-color: $default-white;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+
+  .newsItem {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      display: flex;
+      align-items: center;
+    }
+    .news-title {
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 16px;
+      margin-left: 12px;
+    }
+    .news-date {
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 16px;
+    }
+  }
+  .page {
+    align-self: center;
+    margin: 50px 0 0 0;
+    :global {
+      .ant-pagination-item-active {
+        border-color: rgba(187, 166, 216, 0);
+      }
+      .ant-pagination-item-active a {
+        color: rgba(187, 166, 216, 1);
+      }
+    }
+  }
 }
