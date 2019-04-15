@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import Bar from '../../components/Bar';
-import AniBackground from '../../components/AniBackground';
 import CommonBody from './commonBody';
 
 export default class News extends Component {

@@ -12,8 +12,8 @@ class App extends Component {
         <BrowserRouter>
           <Header />
           <Switch>{routeList}</Switch>
+          <Footer />
         </BrowserRouter>
-        <Footer />
       </div>
     );
   }
