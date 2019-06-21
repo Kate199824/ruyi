@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './style.scss';
 
 export default class MagicPicture extends Component {
+  onHover = () => {
+    const { id, handleHover = () => {} } = this.props;
+    handleHover(id);
+  };
+
   render() {
     const { url, yellow, id } = this.props;
     const classname = yellow ? 'cover yellow-cover ' : 'cover';

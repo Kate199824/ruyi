@@ -1,5 +1,5 @@
 @import '../../../service/ossURL.scss';
-
+@import '../../../common.scss';
 .picture-section {
   background-image: $bg_news_yellow_bg;
   background-size: cover;
@@ -7,4 +7,28 @@
   background-position: 0 0;
   height: 400px;
   margin-bottom: 72px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .magic-item {
+    width: 320px;
+    margin: 0 20px;
+    img {
+      width: 100%;
+      box-shadow: $default-shadow;
+    }
+    .magic-poster-title {
+      margin: 40px 0 0 0;
+      text-align: center;
+    }
+  }
+  .magic-item:hover {
+    img {
+      transition: all 0.35s;
+      transform: scale(1.5, 1.5);
+      box-shadow: $default-shadow-active;
+      border-radius: 3px;
+    }
+  }
 }

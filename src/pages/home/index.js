@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import { Carousel, Icon, Popover } from 'antd';
 import RyMap from '../../components/RyMap';
-import MagicPicture from './MagicPicture';
+import MagicPicture from '../../components/MagicPicture';
 import Schools from './Schools';
-import StudentsWork from './StudentsWork';
+import StudentsWork from '../../components/StudentsWorkHome';
 import {
-  posters,
+  getPosterList,
+  getPhotoList,
+  getStudentWorkList
+} from '../../service/homeSvc';
+import {
   teachers,
-  photos,
   yellowWithChar,
   whiteWithChar,
   qqQRChart,
@@ -15,15 +18,38 @@ import {
 } from '../../service/ossURL';
 import './style.scss';
 
+const introText =
+  '盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。山朗润起来了，水涨起来了，太阳的脸红起来了,坐着，躺着，山朗润起来了，水涨起来了，太阳的脸红起来了,山朗润起来了，水涨起来了，太阳的脸红起来了打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。';
+const atmosphereText =
+  '盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。山朗润起来了，水涨起来水涨起来了，捉几回迷藏。';
+const locationText1 = '南京市 玄武区 新街口街道 丹凤街';
+const locationText2 = '恒基公寓A座2单元1101室';
+
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      posterList: [],
+      photoList: [],
+      studentWorkList: []
+    };
+  }
+  componentDidMount() {
+    Promise.all([getPosterList(), getPhotoList(), getStudentWorkList()]).then(
+      values => {
+        const posterList = values[0];
+        const photoList = values[1];
+        const studentWorkList = values[2];
+        this.setState({
+          posterList,
+          photoList,
+          studentWorkList
+        });
+      }
+    );
+  }
   render() {
-    const introText =
-      '盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。山朗润起来了，水涨起来了，太阳的脸红起来了,坐着，躺着，山朗润起来了，水涨起来了，太阳的脸红起来了,山朗润起来了，水涨起来了，太阳的脸红起来了打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。';
-    const atmosphereText =
-      '盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。山朗润起来了，水涨起来了，太阳的脸红起来了,坐着，躺着，山朗润起来了，水涨起来了，太阳的脸红起来了,山朗润起来了，水涨起来了，太阳的脸红起来了打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。';
-    const locationText1 = '南京市 玄武区 新街口街道 丹凤街';
-    const locationText2 = '恒基公寓A座2单元1101室';
-    const posterList = posters;
+    const { posterList, photoList, studentWorkList } = this.state;
     const teacherList = teachers;
     const QQcontent = (
       <div>
@@ -58,7 +84,7 @@ export default class Home extends Component {
           </Carousel>
         </div>
         <div className="studentsWorkSection">
-          <StudentsWork />
+          <StudentsWork studentWorkList={studentWorkList} />
         </div>
         <div className="photoSection">
           <div className="left-part">
@@ -68,16 +94,16 @@ export default class Home extends Component {
             </div>
             <div className="photoContainer">
               <div className="oneline">
-                <MagicPicture url={photos[0]} id={1} />
-                <MagicPicture url={photos[1]} yellow id={2} />
-                <MagicPicture url={photos[2]} id={3} />
-                <MagicPicture url={photos[3]} yellow id={4} />
+                <MagicPicture url={photoList[0]} id={1} />
+                <MagicPicture url={photoList[1]} yellow id={2} />
+                <MagicPicture url={photoList[2]} id={3} />
+                <MagicPicture url={photoList[3]} yellow id={4} />
               </div>
               <div className="oneline">
-                <MagicPicture url={photos[4]} yellow id={5} />
-                <MagicPicture url={photos[5]} id={6} />
-                <MagicPicture url={photos[6]} yellow id={7} />
-                <MagicPicture url={photos[7]} id={8} />
+                <MagicPicture url={photoList[4]} yellow id={5} />
+                <MagicPicture url={photoList[5]} id={6} />
+                <MagicPicture url={photoList[6]} yellow id={7} />
+                <MagicPicture url={photoList[7]} id={8} />
               </div>
             </div>
           </div>

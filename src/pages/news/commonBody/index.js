@@ -6,86 +6,33 @@ import PictureSection from '../PictureSection';
 import { newsBg, newsBgText } from '../../../service/ossURL';
 import './style.scss';
 
+function CurrentPoster(props) {
+  const { url, text } = props;
+  return (
+    <div className="current-poster">
+      <img src={url} />
+    </div>
+  );
+}
+
 export default class CommonBody extends Component {
   render() {
-    const { type } = this.props;
-    const fake_news = [
-      {
-        title: '1边老师去荷兰啦边边老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '2边老师去荷兰边老师去荷兰啦啦边老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '3边老师去荷兰啦边老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '4边老师去荷兰啦边老师去荷兰啦边老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '边老师去荷兰啦边老师去荷师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '5边老师去师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '6边老师去荷兰啦边边老师老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '边老师去荷兰啦边老师去荷师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '5边老师去师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '6边老师去荷兰啦边边老师老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '7边老师去荷兰啦边老师去荷师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '8边老师去师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      },
-      {
-        title: '9边老师去荷兰啦边边老师老师去荷兰啦边老师去荷兰啦',
-        date: '2019.4.12',
-        link: ''
-      }
-    ];
+    const { type, newsList, currentPoster, previosPosterList } = this.props;
     return (
       <div className="ry-body" id="ry-body">
         <AniBackground bg_url={newsBg[type]} text_url={newsBgText[type]} />
-        <div className="split">
+        <div className="ry-split">
           — {type === 'studio' ? '当前活动' : '新闻资讯'} —
         </div>
-        {type === 'studio' && <div className="split">— 以往活动 —</div>}
-        {type === 'studio' && <PictureSection />}
+        {type === 'studio' && (
+          <CurrentPoster url={currentPoster.url} text={currentPoster.text} />
+        )}
+        {type === 'studio' && <div className="ry-split">— 以往活动 —</div>}
+        {type === 'studio' && (
+          <PictureSection previosPosterList={previosPosterList} />
+        )}
 
-        <NewsSection newsList={fake_news} />
+        <NewsSection newsList={newsList} />
         <Bar />
       </div>
     );

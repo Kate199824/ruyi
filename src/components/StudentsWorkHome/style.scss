@@ -1,11 +1,12 @@
-@import '../../../common.scss';
+@import '../../common.scss';
 
 .students-work {
   background-color: $default-page-white;
   width: 100%;
   display: flex;
   .sw-left-part {
-    width: 25%;
+    width: 36%;
+    max-width: 320px;
     background-color: $default-white;
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@
     align-items: center;
     padding: 60px;
     .carousel-container {
-      width: 800px;
+      width: 650px;
     }
   }
 }

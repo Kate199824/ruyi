@@ -22,12 +22,14 @@ class Header extends Component {
   render() {
     const { toTop } = this.state;
     const list1 = [
-      { name: '油画直接画法', link: '/course' },
-      { name: '古典油画临摹', link: '/course' },
-      { name: '古典油画创作', link: '/course' },
-      { name: '素描造型基础', link: '/course' },
-      { name: '超写实素描', link: '/course' },
-      { name: '素描创作绘画', link: '/course' }
+      { name: '古典油画临摹', link: '/course/古典油画临摹' },
+      { name: '古典油画创作', link: '/course/古典油画创作' },
+      { name: '油画直接画法', link: '/course/油画直接画法' },
+      { name: '素描造型基础', link: '/course/素描造型基础' },
+      { name: '大师素描提高', link: '/course/大师素描提高' },
+      { name: '精微素描创作', link: '/course/精微素描创作' },
+      { name: '坦佩拉临摹', link: '/course/坦佩拉临摹' },
+      { name: '坦佩拉创作', link: '/course/坦佩拉创作' }
     ];
     const list2 = [
       { name: '画室动态', link: '/news/studio' },

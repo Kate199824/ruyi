@@ -1,0 +1,45 @@
+@import '../../../../service/ossURL.scss';
+@import '../../../../common.scss';
+
+.course-schedule {
+  background-image: $bg_course_yellow_bg;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    img {
+      width: 400px;
+    }
+  }
+  .content {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+    .course-schedule-item {
+      cursor: pointer;
+      height: 360px;
+      padding: 20px 20px 30px 20px;
+      margin: 15px;
+      background-color: $default-page-white;
+      .picture {
+        width: 200px;
+        img {
+          max-width: 100%;
+        }
+      }
+      .text {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    .course-schedule-item:hover {
+      transition: all 0.3s;
+      transform: scale(1.2, 1.2);
+      box-shadow: $default-shadow-active;
+      border-radius: 3px;
+    }
+  }
+}

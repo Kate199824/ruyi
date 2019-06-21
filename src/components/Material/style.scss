@@ -1,0 +1,49 @@
+@import '../../common.scss';
+@import '../../service/ossURL.scss';
+
+.ry-material {
+  padding: 80px 80px 80px 80px;
+  display: flex;
+  justify-content: space-around;
+  background-image: $bg_photo;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  .left-part {
+    display: flex;
+    .photoContainer {
+      padding: 20px;
+      .oneline {
+        display: flex;
+      }
+    }
+    .introText {
+      max-height: 400px;
+      margin: 20px 10px;
+      font-size: 16px;
+      color: $default-page-white;
+      writing-mode: vertical-lr;
+    }
+    .introText:first-letter {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  .title {
+    display: flex;
+    font-weight: 420;
+    .title-ch {
+      color: $default-page-white;
+      writing-mode: vertical-lr;
+      writing-mode: tb-lr;
+      font-size: 40px;
+      margin-right: 0px;
+    }
+    .title-en {
+      color: $default-page-white;
+      writing-mode: vertical-lr;
+      writing-mode: tb-lr;
+      margin-top: 4px;
+    }
+  }
+}

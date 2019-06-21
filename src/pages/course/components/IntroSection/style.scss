@@ -1,0 +1,40 @@
+@import '../../../../service/ossURL.scss';
+@import '../../../../common.scss';
+
+.intro-section {
+  background-image: $bg_course_yellow_bg;
+  background-size: contain;
+
+  display: flex;
+  height: 100%;
+
+  .text {
+    position: absolute;
+    border: 1px red solid;
+    color: $default-purple;
+    max-width: 400px;
+    margin: 100px 80px;
+    .title {
+      img {
+        height: 30px;
+        margin: 0 0 12px 0;
+      }
+      span {
+        font-size: 32px;
+        margin: 10px 0 0 10px;
+      }
+    }
+    .content {
+      margin: 20px 0 0 0;
+    }
+    .content:first-letter {
+      font-size: 28px;
+    }
+  }
+
+  .picture {
+    img {
+      width: 100%;
+    }
+  }
+}

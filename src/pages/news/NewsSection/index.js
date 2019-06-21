@@ -18,9 +18,7 @@ function Item(props) {
 export default class NewsSection extends Component {
   constructor(props) {
     super(props);
-    const { newsList } = props;
     this.state = {
-      newsList,
       currentPage: 1,
       pageSize: 6
     };
@@ -33,7 +31,9 @@ export default class NewsSection extends Component {
   };
 
   render() {
-    const { currentPage, newsList, pageSize } = this.state;
+    const { currentPage, pageSize } = this.state;
+    const { newsList } = this.props;
+
     const list = newsList.slice(
       pageSize * (currentPage - 1),
       pageSize * currentPage
