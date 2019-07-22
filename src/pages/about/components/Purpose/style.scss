@@ -1,0 +1,39 @@
+@import '../../../../common.scss';
+
+.ry-about-purpose {
+  background-color: rgba($color: $default-purple, $alpha: 0.98);
+  position: relative;
+  .ry-about-purpose-img-cnt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    img {
+      max-height: 500px;
+    }
+  }
+  .ry-about-purpose-text {
+    position: absolute;
+    top: 80px;
+    right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .title1 {
+      width: 180px;
+    }
+    .title2 {
+      width: 240px;
+      margin-top: 10px;
+    }
+    .title3 {
+      width: 180px;
+      margin-top: 40px;
+    }
+    .text {
+      width: 400px;
+      margin-top: 40px;
+    }
+  }
+}

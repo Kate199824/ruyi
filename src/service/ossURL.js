@@ -482,3 +482,26 @@ export const bg_about =
   'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/bg/bg.png';
 export const bg_about_text =
   'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/bg/text.png';
+
+export const about_purpose = {
+  bg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/purpose/bg.png',
+  text: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/purpose/text.png',
+  title1: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/purpose/title1.png',
+  title2: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/purpose/title2.png',
+  title3: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/purpose/title3.png'
+};
+
+export const about_expectation = {
+  bg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/expectation/bg.png',
+  text: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/expectation/text.png',
+  title1:
+    'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/expectation/title1.png',
+  title2:
+    'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/expectation/title2.png'
+};
+
+export const about_photo = {
+  title: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/title.png',
+  photo: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/photo.png',
+  logoBg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/logoBg.png'
+};
