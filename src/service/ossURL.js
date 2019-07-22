@@ -476,3 +476,9 @@ export const courseScheduleList = {
   tampereReproduction: classicalOilReproductionScheduleList,
   tampereProduce: classicalOilReproductionScheduleList
 };
+
+/////////about///////////////
+export const bg_about =
+  'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/bg/bg.png';
+export const bg_about_text =
+  'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/bg/text.png';
