@@ -14,6 +14,17 @@ const ClassicalOilProduce = PageLoadable(() =>
 const ClassicalOilDirect = PageLoadable(() =>
   import('../pages/course/classicalOilDirect')
 );
+const SketchFoundation = PageLoadable(() =>
+  import('../pages/course/sketchFoundation')
+);
+const SketchMaster = PageLoadable(() => import('../pages/course/sketchMaster'));
+const SketchSubtle = PageLoadable(() => import('../pages/course/sketchSubtle'));
+const TampereProduce = PageLoadable(() =>
+  import('../pages/course/TampereProduce')
+);
+const TampereReproduction = PageLoadable(() =>
+  import('../pages/course/TampereReproduction')
+);
 
 const News = PageLoadable(() => import('../pages/news'));
 const Student = PageLoadable(() => import('../pages/student'));
@@ -42,6 +53,38 @@ export default [
     path={'/course/油画直接画法'}
     component={ClassicalOilDirect}
   />,
+
+  <Route
+    key={'sketchFoundation'}
+    exact
+    path={'/course/素描造型基础'}
+    component={SketchFoundation}
+  />,
+  <Route
+    key={'sketchMaster'}
+    exact
+    path={'/course/大师素描提高'}
+    component={SketchMaster}
+  />,
+  <Route
+    key={'sketchSubtle'}
+    exact
+    path={'/course/精微素描创作'}
+    component={SketchSubtle}
+  />,
+  <Route
+    key={'tampereReproduction'}
+    exact
+    path={'/course/坦佩拉临摹'}
+    component={TampereReproduction}
+  />,
+  <Route
+    key={'tampereProduce'}
+    exact
+    path={'/course/坦佩拉创作'}
+    component={TampereProduce}
+  />,
+
   <Route key={'news'} exact path={'/news/:type'} component={News} />,
   <Route key={'student'} exact path={'/student'} component={Student} />,
   <Route key={'studio'} exact path={'/studio'} component={Studio} />,
