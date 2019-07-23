@@ -404,43 +404,231 @@ export const courseUsTextPicture = {
     'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/8.3.jpg'
 };
 
-const classicalOilReproductionMaterialList = [
+const materialList1 = [
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/1.jpg',
-    text:
-      '那你很猪猪哦大课间放你飞机桑拿房的改愧不敢当那你，打算开发呢对妇女，节日过史可法你曾经带你飞东方的快感是非观大国家党。当你感觉到看不惯'
+    text: ''
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/2.jpg',
-    text: 'laalalalalallalaalallalallalalallalallalala'
+    text: ''
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/3.jpg',
-    text: 'laalalalalallalaalallalallalalallalallalala'
+    text: ''
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/4.jpg',
-    text: 'laalalalalallalaalallalallalalallalallalala'
+    text: ''
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/5.jpg',
-    text: 'laalalalalallalaalallalallalalallalallalala'
+    text: ''
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material1/6.jpg',
-    text: 'laalalalalallalaalallalallalalallalallalala'
+    text: ''
+  }
+];
+
+const materialList2 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material2/6.jpg',
+    text: ''
+  }
+];
+
+const materialList3 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material3/6.jpg',
+    text: ''
+  }
+];
+
+const materialList4 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material4/6.jpg',
+    text: ''
+  }
+];
+
+const materialList5 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material5/6.jpg',
+    text: ''
+  }
+];
+
+const materialList6 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material6/6.jpg',
+    text: ''
+  }
+];
+
+const materialList7 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material7/6.jpg',
+    text: ''
+  }
+];
+
+const materialList8 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/1.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/2.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/3.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/4.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/5.jpg',
+    text: ''
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/material8/6.jpg',
+    text: ''
   }
 ];
 
 export const courseMaterialList = {
-  classicalOilReproduction: classicalOilReproductionMaterialList,
-  classicalOilProduce: classicalOilReproductionMaterialList,
-  classicalOilDirect: classicalOilReproductionMaterialList,
-  sketchFoundation: classicalOilReproductionMaterialList,
-  sketchMaster: classicalOilReproductionMaterialList,
-  sketchSubtle: classicalOilReproductionMaterialList,
-  tampereReproduction: classicalOilReproductionMaterialList,
-  tampereProduce: classicalOilReproductionMaterialList
+  classicalOilReproduction: materialList1,
+  classicalOilProduce: materialList2,
+  classicalOilDirect: materialList3,
+  sketchFoundation: materialList4,
+  sketchMaster: materialList5,
+  sketchSubtle: materialList6,
+  tampereReproduction: materialList7,
+  tampereProduce: materialList8
 };
 
 /**schedule */
@@ -504,4 +692,19 @@ export const about_photo = {
   title: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/title.png',
   photo: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/photo.png',
   logoBg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/photo/logoBg.png'
+};
+
+export const about_location = {
+  title: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/location/title.png',
+  map: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/location/map.png',
+  bg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/location/bg.png'
+};
+
+export const about_traffic = {
+  title: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/title.png',
+  text1: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/text1.png',
+  text2: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/text2.png',
+  bg: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/bg.png',
+  sub1: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/sub1.png',
+  sub2: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/sub2.png'
 };

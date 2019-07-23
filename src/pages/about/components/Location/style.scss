@@ -1,0 +1,46 @@
+@import '../../../../common.scss';
+@import '../../../../service/ossURL.scss';
+
+.ry-about-location {
+  .ry-about-location-location {
+    .title {
+      background-image: $bg_about_location_title;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 160px;
+        margin: 16px 0;
+      }
+    }
+    .ry-about-location-location-map {
+      width: 100%;
+    }
+  }
+  .ry-about-location-traffic {
+    background-image: $bg_about_location_traffic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      width: 180px;
+      margin: 24px 0;
+    }
+    .subtitle {
+      background-color: rgba($color: #9d8ba3, $alpha: 1);
+      width: 70%;
+      img {
+        height: 16px;
+        margin: 8px 0 8px 12px;
+      }
+    }
+    .text1 {
+      width: 600px;
+      margin: 30px 0;
+    }
+    .text2 {
+      width: 640px;
+      margin: 30px 0 100px 40px;
+    }
+  }
+}
