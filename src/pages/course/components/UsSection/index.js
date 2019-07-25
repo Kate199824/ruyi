@@ -10,6 +10,9 @@ export default class UsSection extends Component {
         <div className="picture">
           <img src={url} />
         </div>
+        <div className="text">
+          <img src={textPicture} />
+        </div>
       </div>
     );
   }

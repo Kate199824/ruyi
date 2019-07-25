@@ -220,15 +220,15 @@ export const news_yellow_bg =
 export const previosActivity = [
   {
     url: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/studio/poster1.png',
-    title: '啊啊啊啊啊 \r lalalalla'
+    title: ''
   },
   {
     url: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/studio/poster2.png',
-    title: '啊啊啊啊啊'
+    title: ''
   },
   {
     url: 'http://ruyiart.oss-cn-beijing.aliyuncs.com/news/studio/poster3.png',
-    title: '啊啊啊啊啊'
+    title: ''
   }
 ];
 
@@ -384,24 +384,22 @@ export const courseUsPicture = {
   tampereProduce:
     'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/8.3.jpg'
 };
-////to be changed
+
 export const courseUsTextPicture = {
   classicalOilReproduction:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/1.3.jpg',
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/1.png',
   classicalOilProduce:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/2.3.jpg',
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/2.png',
   classicalOilDirect:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/3.3.jpg',
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/3.png',
   sketchFoundation:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/4.3.jpg',
-  sketchMaster:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/5.3.jpg',
-  sketchSubtle:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/6.3.jpg',
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/4.png',
+  sketchMaster: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/5.png',
+  sketchSubtle: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/6.png',
   tampereReproduction:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/7.3.jpg',
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/7.png',
   tampereProduce:
-    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/pictures/8.3.jpg'
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/intro/8.png'
 };
 
 const materialList1 = [

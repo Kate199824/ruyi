@@ -46,8 +46,8 @@ class Header extends Component {
         <div className="ry-header-ct">
           <Dropdown title={'课程详情'} list={list1} />
           <Dropdown title={'新闻咨询'} list={list2} />
-          <Dropdown title={'学员作品'} ryLink="/student" />
-          <Dropdown title={'教学环境'} ryLink="/studio" />
+          {/* <Dropdown title={'学员作品'} ryLink="/student" />
+          <Dropdown title={'教学环境'} ryLink="/studio" /> */}
           <Dropdown title={'关于我们'} ryLink="/about" />
         </div>
         <div className="ry-header-right">136-7514-8010</div>

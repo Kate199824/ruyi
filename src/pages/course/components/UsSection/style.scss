@@ -1,6 +1,16 @@
 .us-section {
   display: flex;
+  position: relative;
   .picture {
+    img {
+      width: 100%;
+    }
+  }
+  .text {
+    position: absolute;
+    width: 45%;
+    right: 120px;
+    top: 40px;
     img {
       width: 100%;
     }
