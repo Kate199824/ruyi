@@ -4,17 +4,17 @@ import Bar from '../../components/Bar';
 import {
   studio_bg,
   studio_bg_text,
-  studio_picture_list
+  studio_building_picture_list
 } from '../../service/ossURL';
 import './style.scss';
 
-export default class Studio extends Component {
+export default class Building extends Component {
   render() {
     return (
       <div className="body">
         <AniBackground bg_url={studio_bg} text_url={studio_bg_text} />
-        <div className="ry-split">— 教室环境 —</div>
-        {studio_picture_list.map(item => {
+        <div className="ry-split">— 公寓环境 —</div>
+        {studio_building_picture_list.map(item => {
           return <img src={item} className="picture-section" />;
         })}
         <Bar />

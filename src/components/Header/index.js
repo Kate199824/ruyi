@@ -37,6 +37,13 @@ class Header extends Component {
       { name: '国际资讯', link: '/news/abroad' }
     ];
 
+    const list3 = [{ name: '学员心得', link: '/student' }];
+
+    const list4 = [
+      { name: '教室环境', link: '/studio' },
+      { name: '公寓环境', link: '/building' }
+    ];
+
     const classname = toTop ? 'ry-header ry-header__top' : 'ry-header';
     return (
       <div className={classname} id="ry-header">
@@ -46,8 +53,8 @@ class Header extends Component {
         <div className="ry-header-ct">
           <Dropdown title={'课程详情'} list={list1} />
           <Dropdown title={'新闻咨询'} list={list2} />
-          {/* <Dropdown title={'学员作品'} ryLink="/student" />
-          <Dropdown title={'教学环境'} ryLink="/studio" /> */}
+          <Dropdown title={'学员作品'} list={list3} />
+          <Dropdown title={'教学环境'} list={list4} />
           <Dropdown title={'关于我们'} ryLink="/about" />
         </div>
         <div className="ry-header-right">136-7514-8010</div>

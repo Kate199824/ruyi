@@ -32,9 +32,16 @@ export default class CommonBody extends Component {
           <PictureSection previosPosterList={previosPosterList} />
         )}
 
-        <NewsSection newsList={newsList} />
+        <NewsSection
+          newsList={newsList}
+          activeIndex={type === 'studio' ? 0 : type === 'nation' ? 1 : 2}
+        />
         <Bar />
       </div>
     );
+  }
+
+  componentDidUpdate() {
+    window.scrollTo(0, 0);
   }
 }

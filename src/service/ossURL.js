@@ -663,6 +663,24 @@ export const courseScheduleList = {
   tampereProduce: classicalOilReproductionScheduleList
 };
 
+export const coursePhoto = {
+  classicalOilReproduction:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/1.png',
+  classicalOilProduce:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/2.png',
+  classicalOilDirect:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/3.png',
+  sketchFoundation:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/4.png',
+  sketchMaster: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/5.png',
+  sketchSubtle: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/6.png',
+  tampereReproduction:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/7.png',
+  tampereProduce:
+    'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/8.png',
+  logo: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/photo/logo.png'
+};
+
 /////////about///////////////
 export const bg_about =
   'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/bg/bg.png';
@@ -706,3 +724,90 @@ export const about_traffic = {
   sub1: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/sub1.png',
   sub2: 'http://ruyiart-about.oss-cn-beijing.aliyuncs.com/traffic/sub2.png'
 };
+
+////////////////////////studio/////////////////////////////////////////////////////
+export const studio_bg =
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/bg.jpg';
+export const studio_bg_text =
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/bg_text.png';
+
+export const studio_picture_list = [
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/picture/1.png',
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/picture/2.png',
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/picture/3.png',
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/picture/4.png',
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/picture/5.png'
+];
+
+export const studio_building_picture_list = [
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/building/1.png'
+];
+
+//////////////////student///////////////////////
+export const student_bg =
+  'http://ruyiart-studio.oss-cn-beijing.aliyuncs.com/bg.jpg';
+export const student_bg_text =
+  'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/bg_text.png';
+
+export const student_work_list = [
+  {
+    title: '古典油画临摹',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/1.png',
+    text:
+      '没来如一学习之前，我就对古典油画很有兴趣，后来机缘巧合，关注了如一公众号，然后联系到如一绘画边老师，进入工作室开始了体验课，感觉非常不错，于是开始了正式课程。现在也学了一段时间，技法和审美都有了极大的提高，每隔一段时间的公开课让我受益匪浅。尤其是边老师的古典油画公开课，油画颜料的制作一步步的演示给我们看，对于没有接触过古典绘画的我来说，受益良多，逐渐的明白了古典油画绘制的过程。在课余之时，老师会一边聊艺术一边聊生活，并且推荐一些书目，使我开拓了眼界，我觉得这也是一件很棒的事儿。并且边老师每次都会耐心的对学员进行指导，生活中也是一个热情的人，会尽最大的努力帮助每个热爱绘画的小伙伴。希望大家前来学习！'
+  },
+  {
+    title: '古典油画临摹',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/2.png',
+    text:
+      '在工作室学习中，老师将理论和实践、技法和材料相融合，与我们讲解了古典油画绷布、刷胶、制作底料的全部过程，我们乐在其中。上手画画却让我们感到了困难，由于我们没有素描功底，在绘画的过程中出现了很多问题，但各位老师都会帮助我们，鼓励我们。在老师的多次的指导下，我们渐渐了解到了物体的明暗关系，逐渐走近了古典油画。几天的学习下来，我们有新鲜感，有疲惫感，有获得新知识的满足感。这些都让我们感觉到了生活的充实。最后感谢各位老师的指导与帮助，以及同学们的关心与友爱。'
+  },
+  {
+    title: '古典油画创作',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/3.png',
+    text:
+      '我常常喜欢做一些消磨时间的事，读书、弹琴、习字、品茶。如今绘制古典油画也成为爱好之一。制画框、裁布、画线、绷布、熬胶、上胶，绘制底....完成一幅古典油画需要一.步步的工序，底料的调和比例，打磨的精细程度，下笔的轻重深浅，都要拿捏的准，稍有不甚便会有瑕疵，甚至失败。古典油画的绘制如同人生，总不会一帆风顺。细致对待固然重要，但或许，我们不必把它当作一个专业，一次任务。也许只是在一个和煦安静的午后，开始着手调胶。又在一个夜深人静的晚上，绷上画布。比起结果，享受这个美妙的过程本身更加重要。'
+  },
+  {
+    title: '古典油画临摹',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/4.png',
+    text:
+      '我们进入了古典油画材料与技法工坊，开始了接下来为期一周的学习。在这两日的学习中，我们充实又愉快。我们跟随老师制作了油画支持物，进行了底层绘制。从开始的茫然无措，到慢慢的熟练，-步步拼接木框、裁剪麻布、钉画布、配比调胶、上胶...我们仿佛穿越了时间。抛弃了现代“便宜”的成品画布，坐在古典大师身边，慢慢地作出一副画来。在实践之余，老师还为我们做了古典油画体系演变的讲座和油画材料的知识讲座。“古典油画”这一曾经只是在西方美术史课上被提过的名字，在我们的眼中渐渐清晰起来。不仅如此，我们对于古典油画的材料和技法以及它们的表达效果，都有了更加深刻的认识，给我们提供了一个全新的、更加专业、更加细致的思路去欣赏和学习古典油画。写至此，不由得开始期待接下来的课程了!'
+  },
+  {
+    title: '古典油画临摹',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/5.png',
+    text:
+      '从支撑物的制作，到油画底层的绘制，有趣始终贯穿始终。原来油画不是想象中高深莫测的样子，而是一个有趣的创作过程。看着油画框子做好，刷胶，涂底胶，上底....每步都是我们亲手完成，非常有成就感和仪式感。每一步都稳扎稳打，严谨细致，也让我们感受到了一种匠人精神。掌握了画框、画布的制作方法，学习了底胶的熬制办法。深切体验了古典油画中关于油画支持材料的筹备过程，对古典油画支持材料的特性有了基本的认知。掌握了底子涂料的配置方法及其敷设技法，学习了拓印底稿的方法并完成了画面单色稿的绘制。了解了常见的三种类型的底子涂料及其基本特性，了解了古典油画使用的拓印起型办法，绘制了画面的单色稿，为随后的绘画工作做好了准备工作。'
+  },
+  {
+    title: '古典油画临摹',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/6.png',
+    text:
+      '之前对古典油画技法 一直很着迷，出国看展览的时候看见大师原作被其震撼尤其是伦勃朗、鲁本斯、委拉斯贵支油画。什么时候能画到像他们一样。我也是经朋友推荐来到老师这跟老师学习油画技法，短短几个月我学习到很多实用绘画知识更感谢老师在这几个月对我教导，也让我出了不少优秀的绘画作品'
+  },
+  {
+    title: '素描造型基础心得',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/7.png',
+    text:
+      '学习了半年多的素描造型基础课程，慢慢开始有些领悟。之前画素描会从细节开始起笔，结果画面会变得一团糟，后来发现必须要注重整体。注重整体换句话来说就是观察物象，分析物体和物体之间的关系，而盯着细节就像只见树木不见森林，顾不了大局。老师说绘画的步骤是由整体到局部再到整体，并不是说只注重整体忽略局部细节，有整体有局部画面才能变得丰富。要想看到自己的进步，必须要多摸索，多尝试，多练习，可能有段时间会进入瓶颈期，但记住一定要坚持下去，因为突破这个瓶颈你可能就会有质的飞跃。'
+  },
+  {
+    title: '素描造型基础心得',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/8.png',
+    text:
+      '素描是基础，基础打扎实了才能地更好地学习绘画。进入如一学习，各方面都还挺满意的，从简单的排线，到完成一张素描作品，一步步积累，一点点看着自己进步，真的很有成就感。老师的专业水平也让我觉得很放心，还专门为学员做了教案，引导我们变得越来越优秀。这段时间下来，素描造型基础也不断提升，渐渐的也有了很多对素描的感悟，有时候也会遇到一些困惑，经过老师的提点，一下子就豁然开朗。前面的路还很长，我要学的东西还很多，希望在如一教师们的指导下，对素描有更大的提升。'
+  },
+  {
+    title: '坦培拉心得',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/9.png',
+    text:
+      '之前对坦培拉绘画一直很好奇，感觉是一个十分神秘的画种，在研读美术史的过程中发现，它竟然是油画的前身，传统油画是用油当媒介剂，坦培拉绘画可用水与鸡蛋清或用油做媒介，和传统油画一样也是一层层一遍遍往上绘画的，大致可以分为三大类 水性坦培拉、油性坦培拉、油水混合坦培拉。每一类都不一样，在绘画时被坦培拉天然材料属性所折服。从挂胶到白垩底再到做有色底然后脱稿，渐渐发现前人所留下绘画流程是如此科学系统，学到很多尤其在材料制作方面，在此感谢老师对我绘画上指点。'
+  },
+  {
+    title: '坦培拉心得',
+    url: 'http://ruyiart-student.oss-cn-beijing.aliyuncs.com/10.png',
+    text:
+      '我对绘画材料十分感兴趣，也是听朋友推荐来到这边与老师学习坦培拉绘画课程，刚入门发现还是蛮感兴趣但画了一阶段发现进不去很是苦恼，主要还是对材料本身属性不了解，出现了各种各样的问题，还好有老师在帮我解开关于材料方面很多问题。让我画面又可以继续深入下去，在逐级深入过程渐渐发现越到后期不是单纯技法上问题而是心理平衡。所以刚开始我对材料的痴迷导致对绘画本体语言的缺失，在这感谢边老师对我问题指出。材料只是辅助绘画语言呈现更多还是要注重作品内容与背后思想。'
+  }
+];

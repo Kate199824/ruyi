@@ -8,7 +8,7 @@ export default class AniBackground extends Component {
     window.addEventListener('scroll', () => {
       const percent = 100 - window.scrollY / 10;
       ele.style.width = percent + '%';
-      console.log(percent);
+      // console.log(percent);
       ele.style.opacity = percent / 150;
       if (percent > 90) {
         ele2.style.opacity = 1;

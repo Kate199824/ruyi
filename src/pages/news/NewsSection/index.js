@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Icon, Pagination } from 'antd';
+import NaviBar from '../../../components/NaviBar';
 import './style.scss';
 
 function Item(props) {
@@ -32,26 +33,33 @@ export default class NewsSection extends Component {
 
   render() {
     const { currentPage, pageSize } = this.state;
-    const { newsList } = this.props;
+    const { newsList, activeIndex } = this.props;
 
     const list = newsList.slice(
       pageSize * (currentPage - 1),
       pageSize * currentPage
     );
     return (
-      <div className="newsSection">
-        {list.map(item => {
-          return <Item title={item.title} date={item.date} link={item.link} />;
-        })}
-        <Pagination
-          size="small"
-          className="page"
-          current={currentPage}
-          pageSize={pageSize}
-          defaultCurrent={1}
-          onChange={this.onChange}
-          total={newsList.length}
-        />
+      <div className="new-news">
+        <div className="left-navi">
+          <NaviBar activeIndex={activeIndex} />
+        </div>
+        <div className="newsSection">
+          {list.map(item => {
+            return (
+              <Item title={item.title} date={item.date} link={item.link} />
+            );
+          })}
+          <Pagination
+            size="small"
+            className="page"
+            current={currentPage}
+            pageSize={pageSize}
+            defaultCurrent={1}
+            onChange={this.onChange}
+            total={newsList.length}
+          />
+        </div>
       </div>
     );
   }

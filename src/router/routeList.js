@@ -29,6 +29,7 @@ const TampereReproduction = PageLoadable(() =>
 const News = PageLoadable(() => import('../pages/news'));
 const Student = PageLoadable(() => import('../pages/student'));
 const Studio = PageLoadable(() => import('../pages/studio'));
+const Building = PageLoadable(() => import('../pages/building'));
 const About = PageLoadable(() => import('../pages/about'));
 
 export default [
@@ -88,5 +89,6 @@ export default [
   <Route key={'news'} exact path={'/news/:type'} component={News} />,
   <Route key={'student'} exact path={'/student'} component={Student} />,
   <Route key={'studio'} exact path={'/studio'} component={Studio} />,
+  <Route key={'building'} exact path={'/building'} component={Building} />,
   <Route key={'about'} exact path={'/about'} component={About} />
 ];

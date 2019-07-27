@@ -14,7 +14,8 @@ import {
   courseIntroPicture,
   courseUsPicture,
   courseUsTextPicture,
-  courseScheduleList
+  courseScheduleList,
+  coursePhoto
 } from '../../../service/ossURL';
 import { courseIntroText, courseChineseName } from '../../../service/text';
 import { getStudentWorkList } from '../../../service/courseSvc';
@@ -58,7 +59,7 @@ export default class SketchFoundation extends Component {
         <StudentsWork studentWorkList={studentWorkList} />
         <CourseSchedule list={courseScheduleList[courseName]} />
         <Background />
-        <Bar />
+        <Bar imageUrl={coursePhoto[courseName]} />
       </div>
     );
   }

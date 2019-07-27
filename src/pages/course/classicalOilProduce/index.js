@@ -14,7 +14,8 @@ import {
   courseIntroPicture,
   courseUsPicture,
   courseUsTextPicture,
-  courseScheduleList
+  courseScheduleList,
+  coursePhoto
 } from '../../../service/ossURL';
 import { courseIntroText, courseChineseName } from '../../../service/text';
 import { getStudentWorkList } from '../../../service/courseSvc';
@@ -57,7 +58,7 @@ export default class ClassicalOilProduce extends Component {
         <Material materialList={courseMaterialList[courseName]} />
         <StudentsWork studentWorkList={studentWorkList} />
         <CourseSchedule list={courseScheduleList[courseName]} />
-        <Background />
+        <Background imageUrl={coursePhoto[courseName]} />
         <Bar />
       </div>
     );

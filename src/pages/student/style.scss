@@ -1,5 +1,67 @@
 @import '../../common.scss';
 
 .body {
-  background-color: $default-yellow;
+  .ry-student-item {
+    background-color: $default-purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ry-student-item-pic {
+      width: 20%;
+      margin: 100px 0;
+      img {
+        width: 100%;
+        box-shadow: $default-shadow;
+      }
+    }
+    .ry-student-item-content {
+      width: 56%;
+      color: white;
+      margin: 30px 40px 30px 80px;
+      .ry-student-item-title {
+        font-size: 22px;
+        margin: 0 0 28px 0;
+        text-align: center;
+      }
+      .ry-student-item-text {
+        font-size: 14px;
+        line-height: 32px;
+      }
+      .ry-student-item-text::first-letter {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .ry-student-item-2 {
+    background-color: $default-yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ry-student-item-pic {
+      width: 20%;
+      margin: 100px 0;
+      img {
+        width: 100%;
+        box-shadow: $default-shadow;
+      }
+    }
+    .ry-student-item-content {
+      width: 56%;
+      color: $default-purple;
+      margin: 30px 80px 30px 40px;
+      .ry-student-item-title {
+        font-size: 22px;
+        margin: 0 0 28px 0;
+        text-align: center;
+      }
+      .ry-student-item-text {
+        font-size: 14px;
+        line-height: 32px;
+      }
+      .ry-student-item-text::first-letter {
+        font-size: 22px;
+      }
+    }
+  }
 }

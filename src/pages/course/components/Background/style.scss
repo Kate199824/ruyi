@@ -1,0 +1,29 @@
+@import '../../../../common.scss';
+
+.ry-course-bg {
+  position: relative;
+  .img-bg-cnt {
+    overflow-x: scroll;
+    .img-bg {
+      height: 320px;
+    }
+  }
+  .logo-section {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 35%;
+    top: 20%;
+    p {
+      font-size: 18px;
+      color: $default-purple;
+      font-weight: bold;
+      padding: 28px 0 0 0;
+    }
+    img {
+      width: 100px;
+      height: 100%;
+      margin: 40px;
+    }
+  }
+}

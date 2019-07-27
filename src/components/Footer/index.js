@@ -17,13 +17,13 @@ const item2 = {
   list: [{ name: '画室活动' }, { name: '国内资讯' }, { name: '国外资讯' }]
 };
 const item3 = {
-  title: '公开课',
+  title: '学员作品',
   list: [
-    { name: '油画风景公开课' },
-    { name: '油画人物公开课' },
-    { name: '油画静物公开课' },
-    { name: '素描人物公开课' },
-    { name: '素描静物公开课' }
+    { name: '油画风景学员作品' },
+    { name: '油画人物学员作品' },
+    { name: '油画静物学员作品' },
+    { name: '素描人物学员作品' },
+    { name: '素描静物学员作品' }
   ]
 };
 const item4 = {

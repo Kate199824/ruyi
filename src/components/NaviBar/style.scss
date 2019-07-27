@@ -1,0 +1,23 @@
+@import '../../common.scss';
+
+.ry-navi {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $default-shadow;
+  .ry-navi-item {
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    color: $default-purple;
+  }
+  .active {
+    color: white;
+    background-color: $default-purple;
+  }
+}
+
+.ry-navi:hover {
+  box-shadow: $default-shadow-active;
+}
