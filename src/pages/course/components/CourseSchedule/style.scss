@@ -20,7 +20,7 @@
 
     .course-schedule-item {
       cursor: pointer;
-      height: 360px;
+      height: 380px;
       padding: 20px 20px 30px 20px;
       margin: 15px;
       background-color: $default-page-white;
@@ -30,9 +30,11 @@
           max-width: 100%;
         }
       }
-      .text {
+      .title {
         text-align: center;
-        padding: 10px;
+      }
+      .text {
+        padding: 1px;
       }
     }
     .course-schedule-item:hover {

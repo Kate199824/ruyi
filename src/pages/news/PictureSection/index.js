@@ -16,7 +16,7 @@ export default class PictureSection extends Component {
   render() {
     const { previosPosterList } = this.props;
     return (
-      <div className="picture-section">
+      <div className="news-picture-section">
         {previosPosterList.map(item => {
           return <Item url={item.url} title={item.title} kry={item.url} />;
         })}

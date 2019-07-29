@@ -5,11 +5,14 @@ import { Icon } from 'antd';
 const item1 = {
   title: '课程详情',
   list: [
-    { name: '油画直接画法' },
     { name: '古典油画临摹' },
+    { name: '古典油画创作' },
+    { name: '油画直接画法' },
     { name: '素描造型基础' },
-    { name: '素描创作绘画' },
-    { name: '超写实素描' }
+    { name: '大师素描提高' },
+    { name: '精微素描创作' },
+    { name: '坦佩拉临摹' },
+    { name: '坦佩拉创作' }
   ]
 };
 const item2 = {
@@ -19,11 +22,14 @@ const item2 = {
 const item3 = {
   title: '学员作品',
   list: [
-    { name: '油画风景学员作品' },
-    { name: '油画人物学员作品' },
-    { name: '油画静物学员作品' },
-    { name: '素描人物学员作品' },
-    { name: '素描静物学员作品' }
+    { name: '古典油画临摹' },
+    { name: '古典油画创作' },
+    { name: '油画直接画法' },
+    { name: '素描造型基础' },
+    { name: '大师素描提高' },
+    { name: '精微素描创作' },
+    { name: '坦佩拉临摹' },
+    { name: '坦佩拉创作' }
   ]
 };
 const item4 = {
@@ -32,7 +38,7 @@ const item4 = {
 };
 const item5 = {
   title: '关于我们',
-  list: [{ name: '工作室简介' }, { name: '主教介绍' }]
+  list: [{ name: '工作室简介' }, { name: '教师介绍' }]
 };
 const item6 = {
   title: '合作洽谈',
@@ -40,7 +46,7 @@ const item6 = {
 };
 const itemlist = [item1, item2, item3, item4, item5, item6];
 const infoText =
-  '南京如一艺术工作室 地址:南京市玄武区新街口街道丹凤街恒基公寓A座2单元1101室 南京如一艺术工作室 苏ICP备1000000 技术指出 BBBBBYTS';
+  '南京如一艺术工作室 地址:南京市玄武区新街口街道丹凤街恒基公寓A座2单元1101室 南京如一艺术工作室';
 
 function Item(props) {
   const { title, list = [] } = props;

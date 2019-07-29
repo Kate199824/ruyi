@@ -58,8 +58,8 @@ export default class SketchFoundation extends Component {
         <Material materialList={courseMaterialList[courseName]} />
         <StudentsWork studentWorkList={studentWorkList} />
         <CourseSchedule list={courseScheduleList[courseName]} />
-        <Background />
-        <Bar imageUrl={coursePhoto[courseName]} />
+        <Background imageUrl={coursePhoto[courseName]} />
+        <Bar />
       </div>
     );
   }

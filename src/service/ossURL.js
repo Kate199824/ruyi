@@ -633,34 +633,263 @@ export const courseMaterialList = {
 export const scheduleTitle =
   'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/background/title.png';
 
-const classicalOilReproductionScheduleList = [
+const scheduleList1 = [
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
-    text: '1.xxxx\n2.xxx\n3.ccc'
+    title: '1 选择大师',
+    text1: '文艺复兴前后大师',
+    text2: '17世纪大师',
+    text3: '18世纪大师'
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
-    text: '1.xxxx\n2.xxx\n3.ccc'
+    title: '2 素材准备',
+    text1: '挑选油画布',
+    text2: '选择油画颜料与油画笔',
+    text3: '选择油画媒介剂'
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
-    text: '1.xxxx\n2.xxx\n3.ccc'
+    title: '3 临摹与表达',
+    text1: '铅笔脱稿',
+    text2: '打底铺色',
+    text3: '油画单色稿及罩染'
   },
   {
     url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
-    text: '1.xxxx\n2.xxx\n3.ccc'
+    title: '4 领会与感悟',
+    text1: '美术史的感悟',
+    text2: '情感上的感悟',
+    text3: '技法上的感悟'
+  }
+];
+
+const scheduleList2 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 创作思维',
+    text1: '形象思维',
+    text2: '抽象思维',
+    text3: '灵感思维'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 素材收集途径',
+    text1: '生活获取',
+    text2: '童年经验',
+    text3: '书本获取'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 素材归纳',
+    text1: '素材分类',
+    text2: '素材提取',
+    text3: '素材整合'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 创作表达',
+    text1: '情感与感受',
+    text2: '材料选择',
+    text3: '技法表达'
+  }
+];
+
+const scheduleList3 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 观察方式',
+    text1: '整体观察方法',
+    text2: '比较观察方法',
+    text3: '空间立体观察方法'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 画面构成',
+    text1: '点性构成',
+    text2: '线性构成',
+    text3: '面性构成'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 色彩三要素',
+    text1: '明度',
+    text2: '色相',
+    text3: '纯度'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 色彩塑造',
+    text1: '色彩混合',
+    text2: '色彩肌理',
+    text3: '块面分割'
+  }
+];
+
+const scheduleList4 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 构图',
+    text1: '画面分割',
+    text2: '主体与非主体关系',
+    text3: '不同构图样式'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 比例',
+    text1: '透视比例',
+    text2: '标准比例',
+    text3: '明暗调比例'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 结构',
+    text1: '几何结构',
+    text2: '解剖结构',
+    text3: '组合结构'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 黑白灰',
+    text1: '三大面',
+    text2: '五大调',
+    text3: '光影表达'
+  }
+];
+
+const scheduleList5 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 审美',
+    text1: '图像本体阐释层次',
+    text2: '图像寓意阐释层次',
+    text3: '图像文化阐释层次'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 思维',
+    text1: '形象思维',
+    text2: '抽象思维',
+    text3: '灵感思维'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 精神',
+    text1: '宗教精神',
+    text2: '人文精神',
+    text3: '时代精神'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 技法',
+    text1: '画底制作',
+    text2: '综合材料选择',
+    text3: '米开朗琪罗素描'
+  }
+];
+
+const scheduleList6 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 观察',
+    text1: '生活记录',
+    text2: '微观与宏观',
+    text3: '现实与联想'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 空间结构',
+    text1: '形体结构',
+    text2: '空间透视',
+    text3: '空间虚实'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 构图',
+    text1: '几何分割',
+    text2: '比例透视',
+    text3: '节奏关系'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 技法',
+    text1: '局部刻画',
+    text2: '材料尝试',
+    text3: ''
+  }
+];
+
+const scheduleList7 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 坦佩拉的历史与发展',
+    text1: '尼德兰技法',
+    text2: '威尼斯技法',
+    text3: '弗拉芒技法'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 坦佩拉的材料准备',
+    text1: '木板粘合',
+    text2: '底料制作',
+    text3: '混合媒介剂'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 坦佩拉混合技法与实践',
+    text1: '下层罩染',
+    text2: '中层罩染',
+    text3: '上层描绘塑造'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 创作解读与赏析',
+    text1: '丢勒',
+    text2: '怀斯',
+    text3: '波提切利'
+  }
+];
+
+const scheduleList8 = [
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/1.png',
+    title: '1 坦佩拉创作思维',
+    text1: '形象思维',
+    text2: '抽象思维',
+    text3: '灵感思维'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/2.png',
+    title: '2 素材收集途径',
+    text1: '生活获取',
+    text2: '童年经验',
+    text3: '书本获取'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/3.png',
+    title: '3 素材归纳',
+    text1: '素材分类',
+    text2: '素材提取',
+    text3: '素材整合'
+  },
+  {
+    url: 'http://ruyiart-course.oss-cn-beijing.aliyuncs.com/schedule1/4.png',
+    title: '4 创作表达',
+    text1: '情感与感受',
+    text2: '材料选择',
+    text3: '技法表达'
   }
 ];
 
 export const courseScheduleList = {
-  classicalOilReproduction: classicalOilReproductionScheduleList,
-  classicalOilProduce: classicalOilReproductionScheduleList,
-  classicalOilDirect: classicalOilReproductionScheduleList,
-  sketchFoundation: classicalOilReproductionScheduleList,
-  sketchMaster: classicalOilReproductionScheduleList,
-  sketchSubtle: classicalOilReproductionScheduleList,
-  tampereReproduction: classicalOilReproductionScheduleList,
-  tampereProduce: classicalOilReproductionScheduleList
+  classicalOilReproduction: scheduleList1,
+  classicalOilProduce: scheduleList2,
+  classicalOilDirect: scheduleList3,
+  sketchFoundation: scheduleList4,
+  sketchMaster: scheduleList5,
+  sketchSubtle: scheduleList6,
+  tampereReproduction: scheduleList7,
+  tampereProduce: scheduleList8
 };
 
 export const coursePhoto = {

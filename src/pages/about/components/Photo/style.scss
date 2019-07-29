@@ -1,3 +1,5 @@
+@import '../../../../common.scss';
+
 .ry-about-photo {
   position: relative;
   background-color: rgba($color: #000000, $alpha: 0.05);
@@ -29,5 +31,13 @@
       top: 70px;
       left: 10%;
     }
+  }
+}
+.ry-about-photo-photo:hover {
+  img {
+    transition: all 0.35s;
+    transform: scale(1.1, 1.1);
+    box-shadow: $default-shadow-active;
+    border-radius: 3px;
   }
 }
