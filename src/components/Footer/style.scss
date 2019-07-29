@@ -37,7 +37,18 @@
     }
   }
   .ry-footer-bottom {
-    margin: 40px 0 120px 0;
+    margin: 40px 0 60px 0;
     font-size: 14px;
+  }
+
+  .jinbingshu-ad {
+    color: $default-font-color;
+    align-self: flex-end;
+    margin: 0 80px 60px 0;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .jinbingshu-ad:hover {
+    font-weight: bold;
   }
 }

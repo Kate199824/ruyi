@@ -1,0 +1,16 @@
+@import '../../common.scss';
+
+.jbs-ad {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  .jbs-ad-qr {
+    display: flex;
+    width: 800px;
+    img {
+      width: 200px;
+      height: 100%;
+      margin: 20px;
+    }
+  }
+}

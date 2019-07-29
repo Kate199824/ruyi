@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router';
+import { Redirect, Route } from 'react-router';
 import PageLoadable from '../components/Loadable/PageLoadable';
 
 const Home = PageLoadable(() => import('../pages/home'));
@@ -31,6 +31,7 @@ const Student = PageLoadable(() => import('../pages/student'));
 const Studio = PageLoadable(() => import('../pages/studio'));
 const Building = PageLoadable(() => import('../pages/building'));
 const About = PageLoadable(() => import('../pages/about'));
+const Me = PageLoadable(() => import('../pages/me'));
 
 export default [
   <Route key={'home'} exact path={'/'} component={Home} />,
@@ -90,5 +91,8 @@ export default [
   <Route key={'student'} exact path={'/student'} component={Student} />,
   <Route key={'studio'} exact path={'/studio'} component={Studio} />,
   <Route key={'building'} exact path={'/building'} component={Building} />,
-  <Route key={'about'} exact path={'/about'} component={About} />
+  <Route key={'about'} exact path={'/about'} component={About} />,
+  <Route key={'me'} exact path={'/me'} component={Me} />,
+  <Redirect from="*" to="/" />
+  //<Route key={'home'} path={'*'} component={Home} />
 ];

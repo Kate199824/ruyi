@@ -13,16 +13,16 @@ export const getPreviosPosterList = () => {
 };
 
 export const getStudioNewsList = () => {
-  // return request(`${prefix}/studioNewsList`);
-  return Promise.resolve(fake_news);
+  return request(`${prefix}/studioNewsList`);
+  // return Promise.resolve(fake_news);
 };
 
 export const getNationNewsList = () => {
-  // return request(`${prefix}/nationNewsList`);
-  return Promise.resolve(fake_news);
+  return request(`${prefix}/nationNewsList`);
+  // return Promise.resolve(fake_news);
 };
 
 export const getAbroadNewsList = () => {
-  // return request(`${prefix}/abroadNewsList`);
-  return Promise.resolve(fake_news);
+  return request(`${prefix}/abroadNewsList`);
+  // return Promise.resolve(fake_news);
 };

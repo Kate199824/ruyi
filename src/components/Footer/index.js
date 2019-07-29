@@ -79,6 +79,9 @@ export default class Footer extends Component {
           <div className="ry-footer-mid-phone">13675148010</div>
         </div>
         <div className="ry-footer-bottom">{infoText}</div>
+        <a className="jinbingshu-ad" href="/me" target="_blank">
+          关于本网站开发者
+        </a>
       </div>
     );
   }
