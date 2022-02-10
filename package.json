@@ -7,7 +7,7 @@
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.12",
     "imagemin-webpack-plugin": "^2.4.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-loadable": "^5.5.0",
